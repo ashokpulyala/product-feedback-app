@@ -1,0 +1,69 @@
+.suggestion-card {
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.suggestion-card .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 28px 32px;
+}
+.suggestion-card .card-body:hover .suggestion-content h2 {
+    color: #4661E6;
+}
+.suggestion-card .card-body:hover .suggestion-votes{
+    background-color: #CFD7FF;
+}
+.suggestion-card .card-body .suggestion-votes {
+    margin-right: 40px;
+    background-color: #F2F4FE;
+    border-radius: 10px;
+    min-width: 40px;
+    max-height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.suggestion-card .card-body .suggestion-votes span {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #3A4374;
+    display: block;
+}
+.suggestion-card .card-body .suggestion-content .badge {
+    background-color: #F2F4FF !important;
+    color: #4661E6;
+    padding: 6px 16px;
+    border-radius: 10px;
+}
+.suggestion-card .card-body .suggestion-comments {
+    margin-left: auto;
+    align-self: center;
+}
+.suggestion-card .card-body .suggestion-comments span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    .suggestion-card .card-body .suggestion-content {
+        order: 1;
+        margin-bottom: 16px;
+    }
+    .suggestion-card .card-body .suggestion-content .badge {
+        padding: 10px 16px;
+    }
+    .suggestion-card .card-body .suggestion-votes {
+        order: 2;
+        padding: 6px 16px;
+    }
+    .suggestion-card .card-body .suggestion-votes span {
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .suggestion-card .card-body .suggestion-comments {
+        order: 3;
+    }
+}

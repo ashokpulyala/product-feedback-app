@@ -1,0 +1,67 @@
+*, :after, :before {
+  box-sizing: inherit;
+  background-repeat: no-repeat;
+}
+body, html {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #F7F8FD;
+  box-sizing: border-box;
+  color: #3A4374;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #3A4374;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.btn-primary {
+  background-color: #AD1FEA;
+  border-color: #AD1FEA;
+  color: #F2F4FE;
+}
+.btn-primary:hover {
+  background-color: #C75AF6;
+  border-color: #C75AF6;
+}
+.btn-secondary {
+  background-color: #4661E6;
+  border-color: #4661E6;
+  color: #F2F4FE;
+}
+.btn-secondary:hover {
+  background-color: #7C91F9;
+  border-color: #7C91F9;
+}
+
+.gradient-bg {
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+}

@@ -1,0 +1,155 @@
+.suggestion-wrapper .col:first-child {
+    flex: 0 0 280px;
+}
+.suggestion-wrapper .feedbackBoard {
+    min-height: 137px;
+    border-radius: 10px;
+    border: none;
+}
+.suggestion-wrapper .feedbackBoard.card .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.suggestion-wrapper .feedbackBoard.card .card-body .card-title {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #fff;
+}
+.suggestion-wrapper .feedbackBoard.card .card-body .card-text {
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+}
+.suggestion-wrapper .suggestion-filters {
+    margin: 24px 0;
+    border: none;
+    border-radius: 10px;
+}
+.suggestion-wrapper .suggestion-filters .card-body {
+    padding: 24px;
+}
+.suggestion-wrapper .suggestion-filters .btn {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #4661E6;
+    margin-right: 8px;
+    margin-bottom: 14px;
+    min-width: 48px;
+    border-radius: 10px;
+    background-color: #F2F4FF;
+    border-color: #F2F4FF;
+}
+.suggestion-wrapper .suggestion-filters .btn:hover {
+    background-color: #4661E6;
+    border-color: #4661E6;
+    color: #F2F4FF;
+
+}
+.suggestion-wrapper .suggestion-roadmap {
+    border: none;
+    border-radius: 10px;
+}
+.suggestion-wrapper .suggestion-roadmap .card-body {
+    padding: 24px;
+}
+.suggestion-wrapper .suggestion-roadmap .card-body .card-title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.suggestion-wrapper .suggestion-roadmap .card-body ul {
+    margin: 0;
+    padding-left: 16px;
+}
+.suggestion-wrapper .suggestion-roadmap .card-body ul li {
+    color: #647196;
+    margin-bottom: 8px;
+}
+.suggestion-wrapper .suggestion-roadmap .card-body ul li span {
+    font-weight: 700;
+    float: right;
+}
+.suggestion-wrapper .suggestions-block {
+    background-color: #373F68;
+    padding: 14px 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.suggestion-wrapper .suggestions-block h5 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 38px;
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown {
+    display: inline-flex;
+    align-items: center;
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    padding-right: 5px;
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown .dropdown-toggle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0px;
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown .dropdown-menu {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0px 10px 40px -7px #373f6859;
+    min-width: 255px;
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown .dropdown-menu .dropdown-item {
+    padding: 12px 24px;
+    color: #647196;
+    border-bottom: 1px solid rgb(58 ,67, 116, 0.15);
+}
+.suggestion-wrapper .suggestions-block .suggestions-dropdown .dropdown-menu .dropdown-item:hover {
+    color: #AD1FEA;
+    background-color: transparent;
+}
+.suggestion-wrapper .suggestions-block .btn-primary {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 1023px) {  
+    .suggestion-wrapper .col {
+        flex: 0 0 100% !important;
+    }
+    .suggestion-wrapper .feedbackBoard {
+        min-height: auto;
+    }
+    .suggestion-wrapper .feedbackBoard.card .card-body {
+        align-content: flex-start;
+        flex-direction: column;
+    }
+    .suggestion-wrapper .suggestion-roadmap {
+        margin-bottom: 24px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .suggestion-wrapper .suggestions-block h5,
+    .suggestion-wrapper .suggestions-block img {
+        display: none;
+    }
+}
